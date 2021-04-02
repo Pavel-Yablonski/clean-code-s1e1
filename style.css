@@ -29,9 +29,9 @@ body {
 .main {
     display: block;
     width: 500px;
-   
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
@@ -47,11 +47,13 @@ body {
     padding: 0px;
 }
 
-li, .subheader {
+li, 
+.subheader {
     list-style: none;
 }
 
-input, button{
+input, 
+button{
     outline: none;
 }
 
@@ -71,7 +73,8 @@ button:hover {
 
 /* Heading */
 
-.subheader, label[for='new-task'] {
+.subheader, 
+label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
